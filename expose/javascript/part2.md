@@ -109,7 +109,3 @@ F: 2 is not 0, so Boolean(2) converts to true, and then the strict equality is c
 3
 2
 ```
-
-This is because the code continues to run while the timeout waits, so 4 gets printed before 3 and then finally 2. 
-
-20: 
